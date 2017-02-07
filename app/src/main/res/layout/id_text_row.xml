@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layoutIdContainer"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_weight=".20"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/id_row_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTextContainer"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackgroundListItem"
+        android:layout_weight=".80"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_row_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="18dp"
+            android:textSize="18sp"
+            android:text="Koncentrator"
+            android:textColor="@color/colorText"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingBottom="4dp"
+    tools:context="com.dominikk.sidebar.MainActivity">
+
+        <RelativeLayout
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.dominikk.sidebar.view.ListIndexView
+                android:id="@+id/listIndexView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_height="match_parent"
+                android:background="@drawable/list_index_bg"
+                android:layout_width="38dp" />
+
+            <LinearLayout
+                android:id="@+id/letterContainer"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:background="@drawable/list_index_center_bg"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:gravity="center_vertical|center_horizontal">
+
+                <TextView
+                    android:id="@+id/tvIndexLetter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="42sp"
+                    android:visibility="visible"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>
