@@ -47,7 +47,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="18dp"
             android:textSize="18sp"
-            android:text="Koncentrator"
+            android:text="Rachel"
             android:textColor="@color/colorText"
             />
 

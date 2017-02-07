@@ -24,7 +24,9 @@
                 android:layout_alignParentEnd="true"
                 android:layout_height="match_parent"
                 android:background="@drawable/list_index_bg"
-                android:layout_width="38dp" />
+                android:layout_width="32dp" />
+            <!--android:background="@drawable/list_index_bg"-->
+
 
             <LinearLayout
                 android:id="@+id/letterContainer"
